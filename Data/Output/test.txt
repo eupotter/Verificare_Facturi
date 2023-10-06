@@ -1,0 +1,39 @@
+Furnizor Dummy
+Nr. Reg. Com;
+CIF:
+Adresa:
+Email:
+Tel;
+Banca:
+Cont:
+Factura seria: G nr.: 4 data: 01.09.2021
+Denumire produse sau servicii
+45234 - Scaun birou ergonomic
+i 6451435- Masa birou
+Clasificare BT: Uz Intern Client
+SC TESSA SRL
+Nr. Reg.
+Com.
+Adresa:
+Banca:
+Cont: 987986
+56345676
+Str Vanatorilor, nr 14, sc 7, ap 2
+Cluj Napoca, CLuj
+BANCA TRANSILVANIA
+ROOIBTRL012012031334bgxx
+Cota TVA:
+U.M.
+buc
+buc Cant.
+10 1500
+500
+p ret
+Valoare TVA
+Total de plata
+Semnatu prezentant TVA Total
+300 1800
+100 600
+33000
+5500
+38500
