@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>2774,1603</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>881,1603</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ProcessTransaction_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="72">
@@ -139,7 +139,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:SaveMailAttachments Attachments="[listAttachments]" DisplayName="Save Attachments" ExcludeInlineAttachments="True" Filter=".pdf" FolderPath="[in_Config(&quot;savePath1&quot;).ToString + Environment.UserName + in_Config(&quot;savePath2&quot;).ToString]" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[currentEmail]" OverwriteExisting="True">
+          <ui:SaveMailAttachments Attachments="[listAttachments]" DisplayName="Save Attachments" ExcludeInlineAttachments="True" Filter=".pdf" FolderPath="[String.Format(in_Config(&quot;savePath2&quot;).ToString,Environment.UserName)]" sap:VirtualizedContainerService.HintSize="388,92" sap2010:WorkflowViewState.IdRef="SaveMailAttachments_1" Message="[currentEmail]" OverwriteExisting="True">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
